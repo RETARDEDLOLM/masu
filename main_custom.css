@@ -351,7 +351,7 @@ a.menuLink{
 
 #mdSrch.smlInput{
 	position: relative!important;
-	width: calc(100% - 120px)!Important
+	width: calc(100% - 525px)!Important
 }
 
 #spinRespin,
@@ -369,7 +369,7 @@ a.menuLink{
     position: absolute;
     left: -1px;
     top: 1px;
-    font-size: 0 
+    font-size: 0
 }
 
 .mapAgeD::after{
@@ -1044,7 +1044,7 @@ input:checked+.optCheck{
 
 .classWeap,
 .classHP{
-	visibility: hidden 
+	visibility: hidden
 }
 
 .classXPBar{
@@ -1200,15 +1200,6 @@ input:checked+.optCheck{
 .menuItem:hover{
     border: hidden;
     opacity: 1;
-}
-
-element.style {
-    font-size: 24px;
-}
-
-.menuItem .menuItemTitle {
-    margin-top: -20%;
-    color: #fff;
 }
 
 .menuItemTitle{
