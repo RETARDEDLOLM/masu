@@ -6,7 +6,7 @@
 }
 
 #loadHeader {
-    content: url(https://cdn.discordapp.com/attachments/649061884196028416/895043175415156796/Untitled_design.gif)
+    content: url(https://cdn.discordapp.com/attachments/649061884196028416/895044572835639378/ezgif.com-gif-maker.gif)
 }
 
 #loadInfoRHolder {
@@ -55,7 +55,7 @@
 }
 
 #mapInfo::after{
-    content: "Masu EDITED CSS by Flux#1998" "ㅤ" url(https://cdn.discordapp.com/attachments/649061884196028416/895043174819586069/Flux.gif);
+    content: "Masu EDITED CSS by Flux#1998" "ㅤ" url(https://cdn.discordapp.com/attachments/649061884196028416/895044569396297728/ezgif.com-gif-maker_1.gif);
     font-size: 20px;
     display: block;
     position: fixed;
