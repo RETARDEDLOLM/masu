@@ -6,7 +6,7 @@
 }
 
 #loadHeader {
-    content: url(https://cdn.discordapp.com/attachments/649061884196028416/895044572835639378/ezgif.com-gif-maker.giff)
+    content: url(https://cdn.discordapp.com/attachments/649061884196028416/895044572835639378/ezgif.com-gif-maker.gif)
 }
 
 #loadInfoRHolder {
@@ -94,13 +94,13 @@
 
 #menuRegionLabel{
     font-size: 25px;
-    color: ##fd5e53;
+    color: #fd5e53;
     transition-duration: var(--duration);
     text-shadow: 0px -1.6px 0px black,0px 1.6px 0px black,2px 0px 0px black,-2px 0px 0px black,1.6px 2px 0px black,-1.6px 2px 0px black,1.6px -2px 0px black,
     -1.6px -2px 0px black !important;
     width: 170px;
     height: 150px;
-}
+
 
 #menuKRCount{
 	margin-left: 50px
@@ -204,8 +204,8 @@
     padding: 0!Important;
     margin: 0!Important;
     width: 170px!Important;
-    height: 40px;
-    line-height: 35px;
+    height: 150px;
+    line-height: 90px;
     text-shadow: 0px -1.6px 0px black,0px 1.6px 0px black,2px 0px 0px black,-2px 0px 0px black,1.6px 2px 0px black,-1.6px 2px 0px black,1.6px -2px 0px black,
     -1.6px -2px 0px black !important;
     opacity: 0.7
