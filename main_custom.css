@@ -205,6 +205,7 @@
     margin: 0!Important;
     width: 170px!Important;
     height: 40px;
+    line-height: 35px;
     text-shadow: 0px -1.6px 0px black,0px 1.6px 0px black,2px 0px 0px black,-2px 0px 0px black,1.6px 2px 0px black,-1.6px 2px 0px black,1.6px -2px 0px black,
     -1.6px -2px 0px black !important;
     opacity: 0.7
