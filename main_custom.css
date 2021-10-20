@@ -6,7 +6,7 @@
 }
 
 #loadHeader {
-    content: url(https://cdn.discordapp.com/attachments/885577013031731240/894872157648203796/Lazers_full_logo.gif)
+    content: url(https://cdn.discordapp.com/attachments/649061884196028416/895044572835639378/ezgif.com-gif-maker.gif)
 }
 
 #loadInfoRHolder {
@@ -19,7 +19,7 @@
 }
 
 #loadTipsHolder::before {
-    content: "CSS by Envy | Loading screen by tae#4444";
+    content: "CSS by Flux | Loading screen by Flux#1998";
     display: block;
     font-size: 24px;
 }
@@ -55,7 +55,7 @@
 }
 
 #mapInfo::after{
-    content: "lazerz8 CSS by Envy#9335" "ㅤ" url(https://media.discordapp.net/attachments/885577013031731240/894893777158823936/imageedit_3_6922545820.gif);
+    content: "Masu EDITED CSS by Flux#1998" "ㅤ" url(https://cdn.discordapp.com/attachments/649061884196028416/895044569396297728/ezgif.com-gif-maker_1.gif);
     font-size: 20px;
     display: block;
     position: fixed;
