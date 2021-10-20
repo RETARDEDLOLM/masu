@@ -1247,12 +1247,17 @@ input:checked+.optCheck{
     font-size: 24px!important
 }
 
-#menuBtnShop {
-    font-size: 24px!important;
-}
-
 .menuItemIcon{
     display: none
+}
+
+#menuBtnShop {
+    font-size: 0px!important;
+}
+
+#menuBtnShop::after {
+    content: 'Shop';
+    font-size: 26px;
 }
 
 #menuBtnProfile{
