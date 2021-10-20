@@ -993,10 +993,6 @@ input:checked+.optCheck{
 
 /* ranked */
 
-#rankedSoonTm {
-    display: none;
-}
-
 .bigMenTabs+.bigMFeatHold>#bigMFeatName{
     position: relative;
     left: 40px!important;
