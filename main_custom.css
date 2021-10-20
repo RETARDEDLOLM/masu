@@ -6,7 +6,7 @@
 }
 
 #loadHeader {
-    content: url(https://cdn.discordapp.com/attachments/649061884196028416/895044572835639378/ezgif.com-gif-maker.gif)
+    content: url(https://cdn.discordapp.com/attachments/885577013031731240/894872157648203796/Lazers_full_logo.gif)
 }
 
 #loadInfoRHolder {
@@ -19,7 +19,7 @@
 }
 
 #loadTipsHolder::before {
-    content: "CSS by Flux | Loading screen by Flux#1998";
+    content: "CSS by Envy | Loading screen by tae#4444";
     display: block;
     font-size: 24px;
 }
@@ -55,19 +55,13 @@
 }
 
 #mapInfo::after{
-    content: "Masu EDITED CSS by Flux#1998" "ㅤ" url(https://cdn.discordapp.com/attachments/649061884196028416/895044569396297728/ezgif.com-gif-maker_1.gif);
+    content: "lazerz8 CSS by Envy#9335" "ㅤ" url(https://media.discordapp.net/attachments/885577013031731240/894893777158823936/imageedit_3_6922545820.gif);
     font-size: 20px;
     display: block;
     position: fixed;
     bottom: 0;
     right: 0px;
     bottom: 3px;
-}
-
-#mapInfo {
-    color: #fd5e53;
-    font-size: 20px;
-    margin-bottom: 10px;
 }
 
 /* Headers */
@@ -88,19 +82,15 @@
     align-items: center;
 }
 
-.headerBar div {
-    color: #fd5e53;
-}
-
 #menuRegionLabel{
     font-size: 25px;
-    color: #fd5e53;
+    color: rgb(255 255 255 / 0.7);
     transition-duration: var(--duration);
     text-shadow: 0px -1.6px 0px black,0px 1.6px 0px black,2px 0px 0px black,-2px 0px 0px black,1.6px 2px 0px black,-1.6px 2px 0px black,1.6px -2px 0px black,
     -1.6px -2px 0px black !important;
     width: 170px;
     height: 150px;
-
+}
 
 #menuKRCount{
 	margin-left: 50px
@@ -1217,7 +1207,7 @@ input:checked+.optCheck{
     line-height: 150px;
     font-size: 26px;
     margin: 0!important;
-    color: #fd5e53 !important;
+    color: rgb(255 255 255 / 0.7) !important;
     text-shadow: 0px -1px 0px black,0px 1px 0px black,1px 0px 0px black,-1px 0px 0px black,1px 1px 0px black,-1px 1px 0px black,1px -1px 0px black,
     -1px -1px 0px black!Important;
     transition-duration: var(--duration);
@@ -1329,7 +1319,7 @@ input:checked+.optCheck{
     height: 100%;
     line-height: 150px;
     padding: 0!important;
-    color: #fd5e53;
+    color: rgb(255 255 255 / 0.7);
     transition-duration: var(--duration);
 }
 
@@ -1411,7 +1401,7 @@ I: Terms Info */
     display: list-item;
     margin-bottom: 0px;
     transition-duration: var(--duration);
-    color: #fd5e53;
+    color: #fff;
 }
 
 #termsInfo:hover>.terms{
@@ -1681,7 +1671,7 @@ II: Mod Vote */
 
 #uiBase.onMenu #spectateUI>div:nth-child(1)>.spectateInfo>#specTimer{
     background: transparent;
-    color: #fd5e53;
+    color: white;
     font-size: 39px
 }
 
@@ -1839,12 +1829,8 @@ III: Current Game Info
 	top: 0;
 }
 
-#timerVal {
-    color: #fd5e53;
-    padding-left: 3px;
-    font-size: 32px;
-    will-change: transform;
-    transform: translateZ(0);
+#timerVal{
+	font-size: 48px
 }
 
 #gameMessage{
