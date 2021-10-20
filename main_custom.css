@@ -6,13 +6,13 @@
 }
 
 #loadHeader {
-    content: url(https://cdn.discordapp.com/attachments/649061884196028416/895044572835639378/ezgif.com-gif-maker.gif)
+    content: url(https://cdn.discordapp.com/attachments/649061884196028416/895044572835639378/ezgif.com-gif-maker.giff)
 }
 
 #loadInfoRHolder {
     font-size: 0;
 }
-    outline: none;
+
 #loadTipsHolder {
     color: var(--text-color);
     font-size: 0;
@@ -54,12 +54,6 @@
     display: none!important
 }
 
-#mapInfo {
-    color: #fd5e53;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
 #mapInfo::after{
     content: "Masu EDITED CSS by Flux#1998" "ㅤ" url(https://cdn.discordapp.com/attachments/649061884196028416/895044569396297728/ezgif.com-gif-maker_1.gif);
     font-size: 20px;
@@ -68,6 +62,12 @@
     bottom: 0;
     right: 0px;
     bottom: 3px;
+}
+
+#mapInfo {
+    color: #fd5e53;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 /* Headers */
@@ -94,7 +94,7 @@
 
 #menuRegionLabel{
     font-size: 25px;
-    color: #fd5e53;
+    color: ##fd5e53;
     transition-duration: var(--duration);
     text-shadow: 0px -1.6px 0px black,0px 1.6px 0px black,2px 0px 0px black,-2px 0px 0px black,1.6px 2px 0px black,-1.6px 2px 0px black,1.6px -2px 0px black,
     -1.6px -2px 0px black !important;
@@ -204,7 +204,8 @@
     padding: 0!Important;
     margin: 0!Important;
     width: 170px!Important;
-    height: 40px;
+    height: 150px;
+    line-height: 90px;
     text-shadow: 0px -1.6px 0px black,0px 1.6px 0px black,2px 0px 0px black,-2px 0px 0px black,1.6px 2px 0px black,-1.6px 2px 0px black,1.6px -2px 0px black,
     -1.6px -2px 0px black !important;
     opacity: 0.7
@@ -360,7 +361,7 @@ a.menuLink{
 
 #mdSrch.smlInput{
 	position: relative!important;
-	width: calc(100% - 525px)!Important
+	width: calc(100% - 120px)!Important
 }
 
 #spinRespin,
@@ -992,19 +993,6 @@ input:checked+.optCheck{
 
 /* ranked */
 
-#rankedSoonTm {
-position: absolute;
-    top: -67px;
-    left: 10px;
-    border: 2px solid #000;
-    border-radius: 4px;
-    width: auto;
-    background-color: rgba(0,0,0,.5);
-    color: #fff;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 16px;
-    display: none;
 .bigMenTabs+.bigMFeatHold>#bigMFeatName{
     position: relative;
     left: 40px!important;
@@ -1224,17 +1212,14 @@ position: absolute;
     opacity: 1;
 }
 
-element.style {
-    font-size: 23px;
-}
-
 .menuItemTitle{
-       height: 100%;
+    height: 100%;
     line-height: 150px;
     font-size: 26px;
     margin: 0!important;
     color: #fd5e53 !important;
-    text-shadow: 0px -1px 0px black,0px 1px 0px black,1px 0px 0px black,-1px 0px 0px black,1px 1px 0px black,-1px 1px 0px black,1px -1px 0px black, -1px -1px 0px black!Important;
+    text-shadow: 0px -1px 0px black,0px 1px 0px black,1px 0px 0px black,-1px 0px 0px black,1px 1px 0px black,-1px 1px 0px black,1px -1px 0px black,
+    -1px -1px 0px black!Important;
     transition-duration: var(--duration);
 }
 
@@ -1501,9 +1486,9 @@ II: Mod Vote */
     transform: translateY(50%) translateX(0px);
 }
 
-#chatList[style*="max-height"]{
-    max-height: 450px!important;
-    border-radius: 0!important
+#chatList[style*="max-height"] {
+	max-height: 150px!important;
+	border-radius: 0!important
 }
 
 .chatMsg[style*="#fc03ec"]{
@@ -1852,10 +1837,6 @@ III: Current Game Info
 	transform: translateX(-50%);
 	border-radius: 0;
 	top: 0;
-}
-
-#timerVal{
-	font-size: 48px
 }
 
 #timerVal {
