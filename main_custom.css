@@ -1251,21 +1251,21 @@ input:checked+.optCheck{
     display: none
 }
 
-#menuBtnShop {
-    font-size: 0px!important;
-}
-
-#menuBtnShop::after {
-    content: 'Shop';
-    font-size: 26px;
-}
-
 #menuBtnProfile{
     font-size: 0px!important;
 }
 
 #menuBtnProfile::after {
     content: 'Profile';
+    font-size: 26px;
+}
+
+#menuBtnShop {
+    font-size: 0px!important;
+}
+
+#menuBtnShop::after {
+    content: 'Shop';
     font-size: 26px;
 }
 
