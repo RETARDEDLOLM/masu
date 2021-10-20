@@ -1015,6 +1015,21 @@ input:checked+.optCheck{
     width: 150px
 }
 
+#rankedSoonTm {
+    display: none;
+    position: absolute;
+    top: -67px;
+    left: 10px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    width: auto;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
 /* Join */
 
 #gameURL.accountInput{
