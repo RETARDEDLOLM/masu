@@ -1227,6 +1227,10 @@ input:checked+.optCheck{
     opacity: 1;
 }
 
+element.style {
+    font-size: 24px;
+}
+
 .menuItemTitle{
     height: 100%;
     line-height: 150px;
