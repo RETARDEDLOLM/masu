@@ -1336,6 +1336,7 @@ input:checked+.optCheck{
 }
 
 #subLogoButtons>.button{
+    color: #fd5e53;
     background: transparent !Important;
     box-shadow: 0 0 black !important;
     width: 100%!important;
@@ -1344,7 +1345,6 @@ input:checked+.optCheck{
     height: 100%;
     line-height: 150px;
     padding: 0!important;
-    color: #fd5e53;
     transition-duration: var(--duration);
 }
 
