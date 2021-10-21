@@ -1336,6 +1336,7 @@ input:checked+.optCheck{
 }
 
 #subLogoButtons>.button{
+    color: #fd5e53;
     background: transparent !Important;
     box-shadow: 0 0 black !important;
     width: 100%!important;
