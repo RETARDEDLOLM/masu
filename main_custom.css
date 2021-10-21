@@ -54,6 +54,12 @@
     display: none!important
 }
 
+#mapInfo {
+    color: #fd5e53;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 #mapInfo::after{
     content: "Masu EDITED CSS by Flux#1998" "ㅤ" url(https://cdn.discordapp.com/attachments/649061884196028416/895044569396297728/ezgif.com-gif-maker_1.gif);
     font-size: 20px;
@@ -65,6 +71,10 @@
 }
 
 /* Headers */
+
+.headerBar div {
+    color: #fd5e53;
+}
 
 .headerBar{
     padding: 0;
@@ -84,7 +94,7 @@
 
 #menuRegionLabel{
     font-size: 25px;
-    color: rgb(255 255 255 / 0.7);
+    color: #fd5e53;
     transition-duration: var(--duration);
     text-shadow: 0px -1.6px 0px black,0px 1.6px 0px black,2px 0px 0px black,-2px 0px 0px black,1.6px 2px 0px black,-1.6px 2px 0px black,1.6px -2px 0px black,
     -1.6px -2px 0px black !important;
@@ -1207,7 +1217,7 @@ input:checked+.optCheck{
     line-height: 150px;
     font-size: 26px;
     margin: 0!important;
-    color: rgb(255 255 255 / 0.7) !important;
+    color: #fd5e53 !important;
     text-shadow: 0px -1px 0px black,0px 1px 0px black,1px 0px 0px black,-1px 0px 0px black,1px 1px 0px black,-1px 1px 0px black,1px -1px 0px black,
     -1px -1px 0px black!Important;
     transition-duration: var(--duration);
@@ -1310,6 +1320,21 @@ input:checked+.optCheck{
     background-image: linear-gradient(180deg, #0c0c0c -20%, #151515 100%)
 }
 
+#rankedSoonTm {
+    display: none;
+    position: absolute;
+    top: -67px;
+    left: 10px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    width: auto;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
 #subLogoButtons>.button{
     background: transparent !Important;
     box-shadow: 0 0 black !important;
@@ -1319,7 +1344,7 @@ input:checked+.optCheck{
     height: 100%;
     line-height: 150px;
     padding: 0!important;
-    color: rgb(255 255 255 / 0.7);
+    color: ##fd5e53;;
     transition-duration: var(--duration);
 }
 
@@ -1401,7 +1426,7 @@ I: Terms Info */
     display: list-item;
     margin-bottom: 0px;
     transition-duration: var(--duration);
-    color: #fff;
+    color: #fd5e53;
 }
 
 #termsInfo:hover>.terms{
@@ -1671,7 +1696,7 @@ II: Mod Vote */
 
 #uiBase.onMenu #spectateUI>div:nth-child(1)>.spectateInfo>#specTimer{
     background: transparent;
-    color: white;
+    color: #fd5e53;
     font-size: 39px
 }
 
@@ -1830,6 +1855,7 @@ III: Current Game Info
 }
 
 #timerVal{
+	color: #fd5e53;
 	font-size: 48px
 }
 
