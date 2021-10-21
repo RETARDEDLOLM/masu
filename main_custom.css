@@ -1869,7 +1869,7 @@ III: Current Game Info
 /* faceit, rounds */
 
 #roundsDisplay{
-	border-radius: 3px;
+    border-radius: 3px;
     padding: 2px!important;
     margin-left: -20px;
     margin-top: -20px;
