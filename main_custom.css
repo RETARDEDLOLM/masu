@@ -9,8 +9,8 @@
     background-color: #000;
 }
 
-#loadHeader {
-    content: url(https://cdn.discordapp.com/attachments/649061884196028416/895044572835639378/ezgif.com-gif-maker.gif)
+#loadingBg {
+    background-image:url(https://cdn.discordapp.com/attachments/883347112996265994/893825374402801765/loading.gif);
 }
 
 #loadInfoRHolder {
