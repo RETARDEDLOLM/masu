@@ -1,6 +1,10 @@
 
 /* Part I : UI */
 
+#claimPop, #popupBack {
+    display: none !important;
+}
+
 #initLoader {
     background-color: #000;
 }
